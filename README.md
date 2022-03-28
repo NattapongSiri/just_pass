@@ -21,6 +21,6 @@ let password12 = generatePassword({length: 12})
 let alphabetPassword32 = generatePassword({characterGroups: [lowercase, uppercase], noDuplicate: true, length: 32}) 
 ```
 ## Supported constraints
-`length` - A length of generated password. It should be at least as long as number of groups. The default value is 4 times of `characterGroups` length.
-`noDuplicate` - Force password to have completely no duplicate character. It's false by default.
-`characterGroups` - An array of string which will be used to generate a password. The default one have 4 groups. It consists of `lowercase`, `uppercase`, `numeric`, and `symbol`.
+- `length` - A length of generated password. It should be at least as long as number of groups. The default value is 4 times of - `characterGroups` length.
+- `noDuplicate` - Force password to have completely no duplicate character. It's false by default.
+- `characterGroups` - An array of string which will be used to generate a password. The default one have 4 groups. It consists of `lowercase`, `uppercase`, `numeric`, and `symbol`.
