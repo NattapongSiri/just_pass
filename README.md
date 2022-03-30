@@ -1,4 +1,5 @@
 [![NPM](https://nodei.co/npm/just_pass.png?mini=true)](https://npmjs.org/package/just_pass)
+
 A library that generate a password that try to mix as much as possible on differnt character group.
 
 # How to install
