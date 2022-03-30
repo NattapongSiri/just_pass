@@ -8,14 +8,14 @@ A library that generate a password that try to mix as much as possible on differ
 # How to use
 Simplest way to generate a password:
 ```typescript
-import { generatePassword, lowercase, uppercase } from 'just_pass'
+import { generatePassword } from 'just_pass'
 // Default password contains mixture of lowercase, uppercase, numeric, and symbol.
 // The defautl password length is 16.
 let password = generatePassword() 
 ```
 Extra password constraints:
 ```typescript
-import { generatePassword } from 'just_pass'
+import { generatePassword, lowercase, uppercase } from 'just_pass'
 // Default password contains mixture of lowercase, uppercase, numeric, and symbol.
 // The constraints force password to have length of 12
 let password12 = generatePassword({length: 12}) 
